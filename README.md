@@ -1,6 +1,23 @@
 # ViewBorderHelper
 Provides CSS-like border style to your custom views.
 
+## Download
+
+```groovy
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'http://izumin.info/ViewBorderHelper/repository' }
+    }
+}
+```
+
+```groovy
+dependencies {
+    compile 'info.izumin.android:viewborderhelper:0.0.1'
+}
+```
+
 ## Usage
 
 ```java
