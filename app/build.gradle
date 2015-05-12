@@ -5,7 +5,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        applicationId "info.izumin.android.viewborderhelper"
+        applicationId "info.izumin.android.viewborderhelper_sample"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1

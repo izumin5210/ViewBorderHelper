@@ -1,4 +1,4 @@
-package info.izumin.android.viewborderhelper;
+package info.izumin.android.viewborderhelper_sample;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
