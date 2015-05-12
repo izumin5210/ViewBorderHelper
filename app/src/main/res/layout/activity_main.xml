@@ -1,11 +1,42 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_margin="16dp"
+        android:textSize="48sp"
+        android:background="@drawable/border" />
 
-</RelativeLayout>
+    <info.izumin.android.viewborderhelper_sample.BorderedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/hello_world"
+        android:textSize="48sp"
+        app:border_left_color="#ffff9999"
+        app:border_top_color="#ff9999ff"
+        app:border_right_color="#ff99ff99"
+        app:border_bottom_color="#ffffff99"
+        app:border_width="1dp"
+        />
+
+    <info.izumin.android.viewborderhelper_sample.BorderedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/hello_world"
+        android:textSize="48sp"
+        app:border_color="#ff99ff99"
+        app:border_left_width="8dp"
+        app:border_right_width="8dp"
+        />
+</LinearLayout>
