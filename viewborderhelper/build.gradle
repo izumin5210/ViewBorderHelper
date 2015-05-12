@@ -20,3 +20,18 @@ android {
 
 dependencies {
 }
+
+def deployTo = new File(rootDir,"repository")
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository url: "file://${deployTo}"
+            pom.version = '0.0.1'
+            pom.groupId = 'info.izumin.android'
+            pom.artifactId = 'viewborderhelper'
+        }
+    }
+}
