@@ -22,11 +22,11 @@
         android:layout_margin="16dp"
         android:text="@string/hello_world"
         android:textSize="48sp"
-        app:border_left_color="#ffff9999"
-        app:border_top_color="#ff9999ff"
-        app:border_right_color="#ff99ff99"
-        app:border_bottom_color="#ffffff99"
-        app:border_width="1dp"
+        app:borderLeftColor="#ffff9999"
+        app:borderTopColor="#ff9999ff"
+        app:borderRightColor="#ff99ff99"
+        app:borderBottomColor="#ffffff99"
+        app:borderWidth="1dp"
         />
 
     <info.izumin.android.viewborderhelper_sample.BorderedTextView
@@ -35,8 +35,8 @@
         android:layout_margin="16dp"
         android:text="@string/hello_world"
         android:textSize="48sp"
-        app:border_color="#ff99ff99"
-        app:border_left_width="8dp"
-        app:border_right_width="8dp"
+        app:borderColor="#ff99ff99"
+        app:borderLeftWidth="8dp"
+        app:borderRightWidth="8dp"
         />
 </LinearLayout>

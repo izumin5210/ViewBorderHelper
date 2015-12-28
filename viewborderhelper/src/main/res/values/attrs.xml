@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="ViewBorderHelper">
-        <attr name="border_color" format="color" />
-        <attr name="border_width" format="dimension" />
-        <attr name="border_dash_width" format="dimension" />
-        <attr name="border_dash_gap" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderDashWidth" format="dimension" />
+        <attr name="borderDashGap" format="dimension" />
 
-        <attr name="border_left_color" format="color" />
-        <attr name="border_left_width" format="dimension" />
-        <attr name="border_left_dash_width" format="dimension" />
-        <attr name="border_left_dash_gap" format="dimension" />
+        <attr name="borderLeftColor" format="color" />
+        <attr name="borderLeftWidth" format="dimension" />
+        <attr name="borderLeftDashWidth" format="dimension" />
+        <attr name="borderLeftDashGap" format="dimension" />
 
-        <attr name="border_top_color" format="color" />
-        <attr name="border_top_width" format="dimension" />
-        <attr name="border_top_dash_width" format="dimension" />
-        <attr name="border_top_dash_gap" format="dimension" />
+        <attr name="borderTopColor" format="color" />
+        <attr name="borderTopWidth" format="dimension" />
+        <attr name="borderTopDashWidth" format="dimension" />
+        <attr name="borderTopDashGap" format="dimension" />
 
-        <attr name="border_right_color" format="color" />
-        <attr name="border_right_width" format="dimension" />
-        <attr name="border_right_dash_width" format="dimension" />
-        <attr name="border_right_dash_gap" format="dimension" />
+        <attr name="borderRightColor" format="color" />
+        <attr name="borderRightWidth" format="dimension" />
+        <attr name="borderRightDashWidth" format="dimension" />
+        <attr name="borderRightDashGap" format="dimension" />
 
-        <attr name="border_bottom_color" format="color" />
-        <attr name="border_bottom_width" format="dimension" />
-        <attr name="border_bottom_dash_width" format="dimension" />
-        <attr name="border_bottom_dash_gap" format="dimension" />
+        <attr name="borderBottomColor" format="color" />
+        <attr name="borderBottomWidth" format="dimension" />
+        <attr name="borderBottomDashWidth" format="dimension" />
+        <attr name="borderBottomDashGap" format="dimension" />
     </declare-styleable>
 </resources>

@@ -9,34 +9,34 @@ import android.graphics.drawable.GradientDrawable;
  */
 public enum ViewBorder {
     ALL(
-            R.styleable.ViewBorderHelper_border_color,
-            R.styleable.ViewBorderHelper_border_width,
-            R.styleable.ViewBorderHelper_border_dash_width,
-            R.styleable.ViewBorderHelper_border_dash_gap
+            R.styleable.ViewBorderHelper_borderColor,
+            R.styleable.ViewBorderHelper_borderWidth,
+            R.styleable.ViewBorderHelper_borderDashWidth,
+            R.styleable.ViewBorderHelper_borderDashGap
     ),
     LEFT(
-            R.styleable.ViewBorderHelper_border_left_color,
-            R.styleable.ViewBorderHelper_border_left_width,
-            R.styleable.ViewBorderHelper_border_left_dash_width,
-            R.styleable.ViewBorderHelper_border_left_dash_gap
+            R.styleable.ViewBorderHelper_borderLeftColor,
+            R.styleable.ViewBorderHelper_borderLeftWidth,
+            R.styleable.ViewBorderHelper_borderLeftDashWidth,
+            R.styleable.ViewBorderHelper_borderLeftDashGap
     ),
     TOP(
-            R.styleable.ViewBorderHelper_border_top_color,
-            R.styleable.ViewBorderHelper_border_top_width,
-            R.styleable.ViewBorderHelper_border_top_dash_width,
-            R.styleable.ViewBorderHelper_border_top_dash_gap
+            R.styleable.ViewBorderHelper_borderTopColor,
+            R.styleable.ViewBorderHelper_borderTopWidth,
+            R.styleable.ViewBorderHelper_borderTopDashWidth,
+            R.styleable.ViewBorderHelper_borderTopDashGap
     ),
     RIGHT(
-            R.styleable.ViewBorderHelper_border_right_color,
-            R.styleable.ViewBorderHelper_border_right_width,
-            R.styleable.ViewBorderHelper_border_right_dash_width,
-            R.styleable.ViewBorderHelper_border_right_dash_gap
+            R.styleable.ViewBorderHelper_borderRightColor,
+            R.styleable.ViewBorderHelper_borderRightWidth,
+            R.styleable.ViewBorderHelper_borderRightDashWidth,
+            R.styleable.ViewBorderHelper_borderRightDashGap
     ),
     BOTTOM(
-            R.styleable.ViewBorderHelper_border_bottom_color,
-            R.styleable.ViewBorderHelper_border_bottom_width,
-            R.styleable.ViewBorderHelper_border_bottom_dash_width,
-            R.styleable.ViewBorderHelper_border_bottom_dash_gap
+            R.styleable.ViewBorderHelper_borderBottomColor,
+            R.styleable.ViewBorderHelper_borderBottomWidth,
+            R.styleable.ViewBorderHelper_borderBottomDashWidth,
+            R.styleable.ViewBorderHelper_borderBottomDashGap
     );
 
     private static final int DEFAULT_COLOR = 0x00000000;
